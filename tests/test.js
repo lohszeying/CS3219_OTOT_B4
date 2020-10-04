@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 chai.should();
 
 describe("contacts", () => {
-	describe("GET /", () => {
+    describe("GET /", () => {
 		//Test to get all contacts record
 		it("should get all contacts record", (done) => {
             chai.request(app)
@@ -20,7 +20,7 @@ describe("contacts", () => {
     });
     
     describe("POST /", () => {
-		//Test to get all contacts record
+		//Test to create a new contact
 		it("should create a new contact", (done) => {
             chai.request(app)
                 .post('/api/contacts')
@@ -34,7 +34,7 @@ describe("contacts", () => {
     });
     
     describe("PUT /", () => {
-		//Test to get all contacts record
+		//Test to update 1 contact
 		it("should update 1 contact", (done) => {
             chai.request(app)
                 .put('/api/contacts/' + id)
@@ -47,7 +47,7 @@ describe("contacts", () => {
     });
 
     describe("PUT /", () => {
-		//Test to get all contacts record
+		//Test to delete 1 contact
 		it("should delete 1 contact", (done) => {
             chai.request(app)
                 .delete('/api/contacts/' + id)
