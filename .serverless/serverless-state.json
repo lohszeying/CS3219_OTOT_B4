@@ -189,7 +189,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-hello",
               "Handler": "handler.hello",
@@ -207,14 +207,14 @@
               "HelloLogGroup"
             ]
           },
-          "HelloLambdaVersionIG2l32lh3SUHDmjZmLw3xzBphDzAMkvlCuP3dMAyk": {
+          "HelloLambdaVersionBx6h7FZZGDtFz03TTslVQm30C2NZ92x8BU5tsoNnM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "HelloLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "CreateLambdaFunction": {
@@ -224,7 +224,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-create",
               "Handler": "handler.create",
@@ -242,14 +242,14 @@
               "CreateLogGroup"
             ]
           },
-          "CreateLambdaVersionOifxTyORijFqODAJd0CER6T5XQWuEwk2PkCBN3KV5U": {
+          "CreateLambdaVersionQE0224wuYP6h3WbSDRKX6CN5abE1n52k8ijoWOX6E": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "GetOneLambdaFunction": {
@@ -259,7 +259,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-getOne",
               "Handler": "handler.getOne",
@@ -277,14 +277,14 @@
               "GetOneLogGroup"
             ]
           },
-          "GetOneLambdaVersionAyXy72g7HU9CwzrHdEwBXXZARFWK347DCaqqiw5bmA": {
+          "GetOneLambdaVersionOoREuCp0e3qPy0du9a0gSnsWd4ALZoqJgYQl5Xvt8": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetOneLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "GetAllLambdaFunction": {
@@ -294,7 +294,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-getAll",
               "Handler": "handler.getAll",
@@ -312,14 +312,14 @@
               "GetAllLogGroup"
             ]
           },
-          "GetAllLambdaVersionDpQo1inwsdAqFMg83eew4fK6GxN04WhagFaFBK4Df0I": {
+          "GetAllLambdaVersionoQsiuF5qJrHgPkavjtETqX1WVqWwWCdT3AHl9Jnxjc": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "GetAllLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "UpdateLambdaFunction": {
@@ -329,7 +329,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-update",
               "Handler": "handler.update",
@@ -347,14 +347,14 @@
               "UpdateLogGroup"
             ]
           },
-          "UpdateLambdaVersionHmVhKbhImwIzO4yJkXVg3exJlzrDEIjYVUD9MgreSXE": {
+          "UpdateLambdaVersionQfyzHEpLWpAxGTZilho10uci0g7BDmQ8Bt2dGxsb0JI": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UpdateLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "DeleteLambdaFunction": {
@@ -364,7 +364,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-delete",
               "Handler": "handler.delete",
@@ -382,14 +382,14 @@
               "DeleteLogGroup"
             ]
           },
-          "DeleteLambdaVersionysgXmWg6G7cmfeyNfj5DeBfEkuOrEq7C7I81UV3rc": {
+          "DeleteLambdaVersionDXfd0OTo1MQX2LHZsF327g5hAoBYGN5RfThhOShRaVY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "DeleteLambdaFunction"
               },
-              "CodeSha256": "IIok+hqvd/8MjZUQLuQCqhzzH4Nxn0tyAuWOodm1rL4="
+              "CodeSha256": "TGPAsb7Hfud0uQNzgS7TqPHj1xhu+DCKUGpe2wamEDY="
             }
           },
           "ApiGatewayRestApi": {
@@ -736,7 +736,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1601965391383": {
+          "ApiGatewayDeployment1601968219428": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -949,37 +949,37 @@
           "HelloLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "HelloLambdaVersionIG2l32lh3SUHDmjZmLw3xzBphDzAMkvlCuP3dMAyk"
+              "Ref": "HelloLambdaVersionBx6h7FZZGDtFz03TTslVQm30C2NZ92x8BU5tsoNnM"
             }
           },
           "CreateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateLambdaVersionOifxTyORijFqODAJd0CER6T5XQWuEwk2PkCBN3KV5U"
+              "Ref": "CreateLambdaVersionQE0224wuYP6h3WbSDRKX6CN5abE1n52k8ijoWOX6E"
             }
           },
           "GetOneLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetOneLambdaVersionAyXy72g7HU9CwzrHdEwBXXZARFWK347DCaqqiw5bmA"
+              "Ref": "GetOneLambdaVersionOoREuCp0e3qPy0du9a0gSnsWd4ALZoqJgYQl5Xvt8"
             }
           },
           "GetAllLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "GetAllLambdaVersionDpQo1inwsdAqFMg83eew4fK6GxN04WhagFaFBK4Df0I"
+              "Ref": "GetAllLambdaVersionoQsiuF5qJrHgPkavjtETqX1WVqWwWCdT3AHl9Jnxjc"
             }
           },
           "UpdateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UpdateLambdaVersionHmVhKbhImwIzO4yJkXVg3exJlzrDEIjYVUD9MgreSXE"
+              "Ref": "UpdateLambdaVersionQfyzHEpLWpAxGTZilho10uci0g7BDmQ8Bt2dGxsb0JI"
             }
           },
           "DeleteLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "DeleteLambdaVersionysgXmWg6G7cmfeyNfj5DeBfEkuOrEq7C7I81UV3rc"
+              "Ref": "DeleteLambdaVersionDXfd0OTo1MQX2LHZsF327g5hAoBYGN5RfThhOShRaVY"
             }
           },
           "ServiceEndpoint": {
@@ -1087,7 +1087,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "HelloLambdaVersionIG2l32lh3SUHDmjZmLw3xzBphDzAMkvlCuP3dMAyk"
+        "versionLogicalId": "HelloLambdaVersionBx6h7FZZGDtFz03TTslVQm30C2NZ92x8BU5tsoNnM"
       },
       "create": {
         "handler": "handler.create",
@@ -1125,7 +1125,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "CreateLambdaVersionOifxTyORijFqODAJd0CER6T5XQWuEwk2PkCBN3KV5U"
+        "versionLogicalId": "CreateLambdaVersionQE0224wuYP6h3WbSDRKX6CN5abE1n52k8ijoWOX6E"
       },
       "getOne": {
         "handler": "handler.getOne",
@@ -1163,7 +1163,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "GetOneLambdaVersionAyXy72g7HU9CwzrHdEwBXXZARFWK347DCaqqiw5bmA"
+        "versionLogicalId": "GetOneLambdaVersionOoREuCp0e3qPy0du9a0gSnsWd4ALZoqJgYQl5Xvt8"
       },
       "getAll": {
         "handler": "handler.getAll",
@@ -1201,7 +1201,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "GetAllLambdaVersionDpQo1inwsdAqFMg83eew4fK6GxN04WhagFaFBK4Df0I"
+        "versionLogicalId": "GetAllLambdaVersionoQsiuF5qJrHgPkavjtETqX1WVqWwWCdT3AHl9Jnxjc"
       },
       "update": {
         "handler": "handler.update",
@@ -1239,7 +1239,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "UpdateLambdaVersionHmVhKbhImwIzO4yJkXVg3exJlzrDEIjYVUD9MgreSXE"
+        "versionLogicalId": "UpdateLambdaVersionQfyzHEpLWpAxGTZilho10uci0g7BDmQ8Bt2dGxsb0JI"
       },
       "delete": {
         "handler": "handler.delete",
@@ -1277,7 +1277,7 @@
         "timeout": 6,
         "runtime": "nodejs12.x",
         "vpc": {},
-        "versionLogicalId": "DeleteLambdaVersionysgXmWg6G7cmfeyNfj5DeBfEkuOrEq7C7I81UV3rc"
+        "versionLogicalId": "DeleteLambdaVersionDXfd0OTo1MQX2LHZsF327g5hAoBYGN5RfThhOShRaVY"
       }
     },
     "configValidationMode": "warn",
@@ -1299,7 +1299,7 @@
     "artifact": "/Users/szeying/Documents/NUS/CS3219/OTOT/B3/resthub/.serverless/resthub.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/resthub/dev/1601965398644-2020-10-06T06:23:18.644Z",
+    "artifactDirectoryName": "serverless/resthub/dev/1601968226190-2020-10-06T07:10:26.190Z",
     "artifact": "resthub.zip"
   }
 }

@@ -5,10 +5,15 @@ deploy_service_job: &DEPLOY_SERVICE_JOB
   cache:
     directories:
       - node_modules
+      - ./resthub/node_modules
 install:
   - npm install -g serverless
   - travis_retry npm install
+  - cd ./resthub
+  - travis_retry npm install
+  - cd -
 script:
-  - npm run test
+  - cd ./resthub
+  - npm test
   - sls deploy
   - cd -
