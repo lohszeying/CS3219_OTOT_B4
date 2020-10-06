@@ -17,3 +17,7 @@ script:
   - npm test
   - sls deploy
   - cd -
+environments:
+  - &PRODUCTION_ENV
+    - AWS_ACCESS_KEY_ID=${access}
+    - AWS_SECRET_ACCESS_KEY=${secret}
