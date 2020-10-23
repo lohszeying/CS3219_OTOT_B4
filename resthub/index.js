@@ -15,9 +15,9 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 // Connect to Mongoose and set connection variable
-//mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/resthub', { useNewUrlParser: true});
 //var db = mongoose.connection;
-mongoose.connect('mongodb+srv://admin:qwerty123@cluster0.zlewi.mongodb.net/ototb2?retryWrites=true&w=majority', { useNewUrlParser: true});
+//mongoose.connect('mongodb+srv://admin:qwerty123@cluster0.zlewi.mongodb.net/ototb2?retryWrites=true&w=majority', { useNewUrlParser: true});
 var db = mongoose.connection;
 
 // Added check for DB connection

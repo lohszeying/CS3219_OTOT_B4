@@ -189,7 +189,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-hello",
               "Handler": "handler.hello",
@@ -224,7 +224,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-create",
               "Handler": "handler.create",
@@ -259,7 +259,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-getOne",
               "Handler": "handler.getOne",
@@ -294,7 +294,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-getAll",
               "Handler": "handler.getAll",
@@ -329,7 +329,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-update",
               "Handler": "handler.update",
@@ -364,7 +364,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z/resthub.zip"
+                "S3Key": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z/resthub.zip"
               },
               "FunctionName": "resthub-dev-delete",
               "Handler": "handler.delete",
@@ -736,7 +736,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1601968845709": {
+          "ApiGatewayDeployment1602062966699": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1299,7 +1299,7 @@
     "artifact": "/Users/szeying/Documents/NUS/CS3219/OTOT/B3/resthub/resthub/.serverless/resthub.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/resthub/dev/1601968852232-2020-10-06T07:20:52.232Z",
+    "artifactDirectoryName": "serverless/resthub/dev/1602062972936-2020-10-07T09:29:32.936Z",
     "artifact": "resthub.zip"
   }
 }
